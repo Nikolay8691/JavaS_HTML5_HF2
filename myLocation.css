@@ -5,3 +5,7 @@ div {
 .navigation_true {
 	color: green;
 }
+
+.navigation_false {
+	color: red;
+}
