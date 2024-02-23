@@ -23,6 +23,11 @@ function displayLocation(position) {
 		longitude: -122.52099
 	};
 
+	var homeCoords = {
+		latitude: 59.9425024,
+		longitude: 30.2383104
+	};
+
 	var km = computeDistance(position.coords, hfCoords);
 	var distance = document.getElementById('distance');
 	distance.innerHTML = 'You are ' + km + ' km from the WickedlySmart HQ';
